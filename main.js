@@ -14,7 +14,6 @@ const RiffyAudioProcessingFramework = require('riffy').Riffy;
 const FileSystemOperationalInterface = require('fs');
 const SystemPathResolutionUtility = require('path');
 const SystemConfigurationManager = require('./config');
-const DatabaseConnectionEstablishmentService = require('./database/connection');
 const AudioPlayerManagementHandler = require('./utils/player');
 const ApplicationStatusManagementService = require('./utils/statusManager');
 const MemoryGarbageCollectionOptimizer = require('./utils/garbageCollector');
@@ -372,3 +371,4 @@ enterpriseApplicationManager.executeApplicationBootstrap();
 module.exports = enterpriseApplicationManager.clientRuntimeInstance;
 
 shiva.initialize(enterpriseApplicationManager.clientRuntimeInstance);
+
