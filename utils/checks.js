@@ -1,4 +1,4 @@
-const Server = require('../models/Server');
+
 
 class ConditionChecker {
     constructor(client) {
@@ -121,3 +121,4 @@ class ConditionChecker {
 }
 
 module.exports = ConditionChecker;
+
