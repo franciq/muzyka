@@ -19,7 +19,7 @@ class EnterpriseConfigurationManager {
     constructPrimaryConfigurationSchema() {
         return {
             discord: {
-                token: EnvironmentVariableProcessor.TOKEN || ""
+                token: EnvironmentVariableProcessor.TOKEN || "MTQ1NjI4Mjk5OTYzNjA5OTE3Nw.GnXwcJ.TIZs1mMRsl_QalyaeAG5KeN14rJ_mX6ZtORByg"
             },
             mongodb: {
                 uri: EnvironmentVariableProcessor.MONGODB_URI || ""  
@@ -41,7 +41,7 @@ class EnterpriseConfigurationManager {
              */
             bot: {
                 prefix: EnvironmentVariableProcessor.BOT_PREFIX || "!",  // 👈 prefix (!, ?, etc)
-                ownerIds: ["1004206704994566164"],      // 👈 ADD YOUR DISCORD ID HERE
+                ownerIds: ["1444334428003504223"],      // 👈 ADD YOUR DISCORD ID HERE
                 embedColor: 0x00AE86,               // 👈 Bot embed color (hex)
                 supportServer: "https://discord.gg/xQF9f9yUEM",    // 👈 Your support server link
                 defaultStatus: "🎵 Ready for music!"         // 👈 Bot status message
@@ -100,6 +100,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
