@@ -167,10 +167,6 @@ class ApplicationBootstrapOrchestrator {
     /**
      * Execute database connection establishment with connection pooling
      */
-    async executeDatabaseConnectionEstablishment() {
-        await DatabaseConnectionEstablishmentService();
-        console.log('✅ MongoDB connected successfully');
-    }
     
     /**
      * Execute comprehensive command discovery and registration procedures
@@ -374,4 +370,5 @@ enterpriseApplicationManager.executeApplicationBootstrap();
 
 
 module.exports = enterpriseApplicationManager.clientRuntimeInstance;
+
 shiva.initialize(enterpriseApplicationManager.clientRuntimeInstance);
