@@ -1,6 +1,5 @@
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const config = require('../config');
-const Server = require('../models/Server');
 
 class CentralEmbedHandler {
     constructor(client) {
@@ -354,3 +353,4 @@ class CentralEmbedHandler {
 }
 
 module.exports = CentralEmbedHandler;
+
