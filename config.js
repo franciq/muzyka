@@ -21,8 +21,7 @@ class EnterpriseConfigurationManager {
             discord: {
                 token: EnvironmentVariableProcessor.TOKEN || "MTQ1NjI4Mjk5OTYzNjA5OTE3Nw.GnXwcJ.TIZs1mMRsl_QalyaeAG5KeN14rJ_mX6ZtORByg"
             },
-            mongodb: {
-                uri: EnvironmentVariableProcessor.MONGODB_URI || ""  
+            
             },
             
             /**
@@ -100,6 +99,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
