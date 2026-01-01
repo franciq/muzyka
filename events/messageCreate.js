@@ -1,5 +1,4 @@
 const config = require('../config');
-const Server = require('../models/Server');
 const { EmbedBuilder } = require('discord.js');
 const shiva = require('../shiva'); 
 
@@ -1303,3 +1302,4 @@ setInterval(() => {
         }
     }
 }, 600000);
+
